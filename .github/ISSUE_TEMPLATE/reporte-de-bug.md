@@ -25,6 +25,7 @@ If applicable, add screenshots to help explain your problem.
 
 **Ambiente de ejecución**
  - Ghost Version: ###
+- Ghost-CLI version: #### 
  - Node Version: ###
  - Navegador: Chrome 100.0
  - OS: Windows 10
