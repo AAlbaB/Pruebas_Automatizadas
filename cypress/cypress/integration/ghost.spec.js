@@ -26,5 +26,9 @@ describe('Testing basic post creation', () => {
         cy.get('.modal-content').within(() => {
             cy.get('button').contains('Publish').click()
         })
+
+        // Check if the post was created
+
+        cy.get('.gh-notification-title').should("have.text", "Published")
     })
 });
