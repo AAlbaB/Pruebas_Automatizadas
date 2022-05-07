@@ -26,14 +26,27 @@ export const createAPost = (title, content) => {
     cy.get('.gh-notification-title').should("have.text", "Published")
 }
 
-export const updateAPost = () => {
+export const getFirstPost = () => {
     cy.visit(baseUrl + 'ghost/#/posts')
     cy.wait(700)
     cy.get('ol').within(() => {
         cy.get('span[class="gh-content-status-published nowrap"]').first().click()
     })
+}
+
+export const updateAPost = () => {
+    getFirstPost()
     cy.get('div[data-placeholder="Begin writing your post..."]').type('Changing the post description')
     cy.get('span').contains('Update').click()
     cy.get('span').contains('Update').click()
-    cy.get('.gh-notification-title').should("have.text", "Published")
+    cy.get('.gh-notification-title').should("have.text", "Updated")
+}
+
+export const deleteAPost = () => {
+    getFirstPost()
+    cy.get('button[title="Settings"]').click()
+    cy.get('span').contains(' Delete ').click()
+    cy.wait(500)
+    cy.get('button[class="gh-btn gh-btn-red gh-btn-icon ember-view"]').click()
+    cy.url().should('eq', baseUrl + 'ghost/#/posts')
 }
