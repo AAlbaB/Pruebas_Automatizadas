@@ -50,3 +50,10 @@ export const deleteAPost = () => {
     cy.get('button[class="gh-btn gh-btn-red gh-btn-icon ember-view"]').click()
     cy.url().should('eq', baseUrl + 'ghost/#/posts')
 }
+
+export const logout = () => {
+    cy.visit(baseUrl + 'ghost/#/dashboard')
+    cy.get('div[class="gh-user-avatar relative"]').click()
+    cy.get('a[href="#/signout/"]').click()
+    cy.url().should('eq', baseUrl + 'ghost/#/signin')
+}

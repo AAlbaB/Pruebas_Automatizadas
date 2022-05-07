@@ -1,4 +1,4 @@
-import { createAPost, deleteAPost, login, updateAPost } from "../support/utils";
+import { createAPost, deleteAPost, login, logout, updateAPost } from "../support/utils";
 import { password, userName, baseUrl } from "../support/constants";
 
 describe('Testing basic post creation', () => {
@@ -7,7 +7,7 @@ describe('Testing basic post creation', () => {
     })
     
     it('Create a new post and check if was created correctly', () => {
-        createAPost("This is a new post", "This is the description")
         deleteAPost()
+        logout()
     })
 });
