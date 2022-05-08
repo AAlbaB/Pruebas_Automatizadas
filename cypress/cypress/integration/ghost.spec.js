@@ -171,4 +171,14 @@ describe('Ghost testing', () => {
         })
     });
 
+    it('Test scenario #16', () => {
+        createAPost(postTitle, 'Pets are awesome')
+        deleteAPost(postTitle)
+        
+        cy.get('@postUrl').then((postUrl) => {
+            logout()
+            checkIfPostDoesNotExist(postUrl)
+        })
+    });
+
 });
