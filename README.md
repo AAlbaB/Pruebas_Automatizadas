@@ -2,7 +2,7 @@
 
 ## Integrantes:
 - José Alexander Palacio Muñoz - j.palaciom@uniandes.edu.co
-- Oscar Andrés Alba
+- Oscar Andrés Alba Barragán - o.alba@uniandes.edu.co
 - Diego Castro
 - Diego Fernando Ramírez Rodríguez - df.ramirezr1@uniandes.edu.co
 
