@@ -1,5 +1,11 @@
 # Pruebas_E2E Grupo-21
 
+## Integrantes:
+- José Alexander Palacio Muñoz - j.palaciom@uniandes.edu.co
+- Oscar Andrés Alba
+- Diego Castro
+- Diego Fernando Ramírez Rodríguez - df.ramirezr1@uniandes.edu.co
+
 ## Introducción.
 
 Las pruebas E2E permiten validar combinaciones de casos de uso, debido a que las pruebas de reconocimiento no cuentan con la inteligencia suficiente para validar ni combinar los casos de usos. Por tal motivo, el siguiente tutorial pretende explicar el procedimiento para el desarrollo de pruebas E2E a partir de dos herramientas para el desarrollo de pruebas: cypress y kraken. Adicionalmente, se desean establecer los pro y contras que pueden tener estas herramientas para el desarrollo de pruebas. 
