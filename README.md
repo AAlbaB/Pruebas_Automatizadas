@@ -1,8 +1,18 @@
-# Pruebas_Automatizadas Grupo-21
+# Pruebas_E2E Grupo-21
 
-En el siguiente repositorio se puede apreciar la construcción de diferentes funcionalidades escenarios para el desarrollo de pruebas, las cuales serán aplicadas en un post de Ghost usando las herramientas de cypress y kraken, con el fin de comparar las funcionalidades de cada herramienta (la comparación se puede observar en la wiki).
-A continuación, se observan las funcionalidades usadas para las pruebas con su descripción.
+## Introducción.
 
+Las pruebas E2E permiten validar combinaciones de casos de uso, debido a que las pruebas de reconocimiento no cuentan con la inteligencia suficiente para validar ni combinar los casos de usos. Por tal motivo, el siguiente tutorial pretende explicar el procedimiento para el desarrollo de pruebas E2E a partir de dos herramientas para el desarrollo de pruebas: cypress y kraken. Adicionalmente, se desean establecer los pro y contras que pueden tener estas herramientas para el desarrollo de pruebas. 
+
+## Versiones de software usados.
+
+## Funcionalidades
+
+Para el desarrollo de las pruebas E2E es necesario establecer las funcionalidades con las que cuenta la aplicación, con el fin de construir los diversos escenarios que permitan establecer el correcto funcionamiento del sistema. En la tabla 1, se puede apreciar la construcción de algunas funcionalidades de la aplicación, las cuales serán aplicadas para la creación de diferentes escenarios.
+
+
+
+Tabla 1. Funcionalidades de la aplicación 
 
 | Funcionalidades            | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -14,3 +24,31 @@ A continuación, se observan las funcionalidades usadas para las pruebas con su 
 | Verificar post existente   | En la pantalla principal, en el menú izquierdo, pulse en “Published” y verifique en la lista el nombre de la publicación.                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Verificar post inexistente | En la pantalla principal, en el menú izquierdo, pulse en “Published” y verifique en la lista que no existe publicación con el nombre asignado.                                                                                                                                                                                                                                                                                                                                                                                 |
 
+
+## Escenarios
+
+Las funcionalidades descritas en la tabla 1, permiten crear un número determinado de escenarios a partir de su combinación. En la tabla 2, se pueden observar veinte escenarios diferentes. La primera columna corresponde al número de escenario (1,2, 3...), cuya secuencia se puede leer de izquierda a derecha de la tabla.  
+
+Tabla 2. Escenarios de prueba
+| #  | Fun 1 | Fun 2         | Fun 3         | Fun 4                        | Fun 5                        | Fun 6                        | Fun 7                        |
+|----|-------|---------------|---------------|------------------------------|------------------------------|------------------------------|------------------------------|
+| 1  | Login | Crear post    | Editar post   | Eliminar post                | Crear post                   | Logout                       | Verificar que post existe    |
+| 2  | Login | Eliminar post | Logout        | Login                        | crear post                   | Logout                       | Verificar que post existe    |
+| 3  | Login | Crear post    | Eliminar post | Crear post                   | Editar post                  | Logout                       | Verificar que post existe    |
+| 4  | Login | Crear post    | Logout        | Login                        | editar post                  | Logout                       | Verificar que post existe    |
+| 5  | Login | Crear post    | Logout        | Login                        | Eliminar post                | Logout                       | verificar que post no existe |
+| 6  | Login | Editar post   | Logout        | Login                        | Eliminar post                | Logout                       | verificar que post no existe |
+| 7  | Login | Eliminar post | Crear post    | Editar post                  | Logout                       | Verificar que el post existe |                              |
+| 8  | Login | Eliminar post | Crear post    | Editar post                  | Logout                       | Verificar que post existe    |                              |
+| 9  | Login | Crear post    | Eliminar post | Crear post                   | Logout                       | Verificar que post existe    |                              |
+| 10 | Login | Crear post    | Logout        | Login                        | Logout                       | Verificar que post existe    |                              |
+| 11 | Login | Crear post    | Editar post   | Eliminar post                | Logout                       | Verificar que post no existe |                              |
+| 12 | Login | Crear post    | Editar post   | Logout                       | Verificar que post existe    |                              |                              |
+| 13 | Login | Editar post   | Crear post    | Logout                       | Verificar que post existe    |                              |                              |
+| 14 | Login | Eliminar post | Crear post    | Logout                       | Verificar que post existe    |                              |                              |
+| 15 | Login | Editar post   | Eliminar post | Logout                       | Verificar que post existe    |                              |                              |
+| 16 | Login | Crear post    | Eliminar post | Logout                       | Verificar que post no existe |                              |                              |
+| 17 | Login | Editar post   | Eliminar post | Logout                       | verificar que post no existe |                              |                              |
+| 18 | Login | Crear post    | Logout        | Verificar que post existe    |                              |                              |                              |
+| 19 | Login | Editar post   | Logout        | Verificar que el post existe |                              |                              |                              |
+| 20 | Login | Eliminar post | Logout        | verificar que post no existe |                              |                              |                              |
