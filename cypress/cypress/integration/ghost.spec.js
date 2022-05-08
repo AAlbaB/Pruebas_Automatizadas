@@ -192,4 +192,33 @@ describe('Ghost testing', () => {
         })
     });
 
+    it('Test scenario #18', () => {
+        createAPost(postTitle, 'Pets are awesome')
+        
+        cy.get('@postUrl').then((postUrl) => {
+            logout()
+            checkIfPostExist(postUrl)
+        })
+    });
+
+    it('Test scenario #19', () => {
+        createAPost(postTitle, 'Pets are awesome')
+        updateAPost(postTitle)
+        
+        cy.get('@postUrl').then((postUrl) => {
+            logout()
+            checkIfPostExist(postUrl)
+        })
+    });
+
+    it('Test scenario #20', () => {
+        createAPost(postTitle, 'Pets are awesome')
+        deleteAPost(postTitle)
+        
+        cy.get('@postUrl').then((postUrl) => {
+            logout()
+            checkIfPostDoesNotExist(postUrl)
+        })
+    });
+
 });
