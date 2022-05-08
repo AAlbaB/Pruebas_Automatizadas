@@ -1,18 +1,47 @@
 import { checkIfPostDoesNotExist, checkIfPostExist, createAPost, deleteAPost, login, logout, updateAPost } from "../support/utils";
 import { password, userName, baseUrl } from "../support/constants";
 
-describe('Testing basic post creation', () => {
+const postTitle = 'The pets blog';
+
+describe('Ghost testing', () => {
     beforeEach(() => {
        login(userName, password);
     })
     
-    it('Create a new post and check if was created correctly', () => {
-        let postTitle = 'The pets blog'
+    it('Test scenario #1', () => {
         createAPost(postTitle, 'Pets are awesome')
+        updateAPost(postTitle)
+        deleteAPost(postTitle)
+        createAPost('A new post')
+        
         cy.get('@postUrl').then((postUrl) => {
-            deleteAPost(postTitle)
             logout()
-            checkIfPostDoesNotExist(postUrl);
+            checkIfPostExist(postUrl)
         })
-    })
+    });
+
+    it('Test scenario #2', () => {
+        createAPost(postTitle, 'Pets are awesome')
+        deleteAPost(postTitle)
+        logout()
+        login(userName, password)
+        createAPost('A new post')
+        cy.get('@postUrl').then((postUrl) => {
+            logout()
+            checkIfPostExist(postUrl)
+        })
+    });
+
+    it('Test scenario #3', () => {
+        createAPost(postTitle, 'Pets are awesome')
+        deleteAPost(postTitle)
+        createAPost('A new post 2')
+        updateAPost('A new post 2')
+
+        cy.get('@postUrl').then((postUrl) => {
+            logout()
+            checkIfPostExist(postUrl)
+        })
+    });
+
 });
