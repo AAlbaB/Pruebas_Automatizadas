@@ -79,6 +79,7 @@ Para instalar la herramienta, abra una terminal e ingrese el siguiente comando:
 Esto iniciará el proceso de descarga de la herramienta Kraken a nivel global en la máquina y todas las dependencias que son necesarias para que este se ejecute de forma adecuada. Una vez termine, podrá ver múltiples mensajes en su terminal que le indican que se están instalando varias librerías.
 
 Cuando el proceso finalice, podrá ver un mensaje que le indica que se ha terminado de instalar todas las dependencias, como el de la siguiente imagen:
+
 ![image](https://user-images.githubusercontent.com/98669202/167321497-677c6381-fe03-423c-b4b4-f77aba8e9ed1.png)
 
 #### Creación del proyecto base
@@ -92,20 +93,17 @@ Al momento de la ejecución de sus pruebas con Kraken, puede encontrarse con var
 ![image](https://user-images.githubusercontent.com/98669202/167321556-55941635-0af3-4dcc-9bf6-b5955e670a87.png)
 
 Esto se debe a conflictos internos del manejo de librerías a nivel local y global por parte de npm. Para solucionar dicha situación, es necesario que, en el directorio que se generó con el `comando kraken-node gen`, usted instale de forma local la herramienta kraken-node. Es decir, en esta misma terminal, ejecute el siguiente comando:
-
 `npm install kraken-node`
 
 Luego de esto, debe ejecutar todos los comandos de kraken-node, indicando la ruta relativa de la librería que se instala en el directorio node_modules. Es decir, al momento de ejecutar la prueba, el comando debe ser:
-
 `./node_modules/kraken-node/bin/kraken-node run`
 
 De esta forma, se asegura que la librería tenga acceso local a sus dependencias de cucumber.
 
 Otro posible error es que el comando appium no se reconozca a nivel del sistema operativo y, por ende, Kraken no lo pueda utilizar. Si esto le sucede, ejecute el siguiente comando para instalarlo:
-
 `npm install -g appium`
 
-#### Ejecución de las pruebas
+### Ejecución de las pruebas
 
 Primero se debe clonar el proyecto con los siguientes pasos
 
