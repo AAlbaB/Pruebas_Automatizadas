@@ -61,6 +61,11 @@ Tabla 2. Escenarios de prueba
 
 # Ejecución de las pruebas
 
+## Pros y contras de las herramientas utilizadas
+En la wiki de este proyecto puede encontrar los pros y contras de Kraken y Cypress. El enlace se encuetra a continuación:
+https://github.com/AAlbaB/Pruebas_Automatizadas/wiki/Pros-y-Contras-de-las-herramientas-utilizadas
+
+
 ## Instrucciones para la ejecución de las Pruebas con Kraken
 
 Para la ejecución de las pruebas en Kraken se deben tener los siguientes requisitos:
