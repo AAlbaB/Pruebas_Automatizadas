@@ -40,7 +40,6 @@ When('I check if the post was published', async function() {
     let elements = await this.driver.$('/html/body/div[2]/div/aside/article/div');
     let valor = await elements.getText();
     expect(valor).to.equal(valor);
-//    return console.log(valor)
   });
 
 
@@ -48,11 +47,6 @@ When('I go back to posts', async function() {
     let element = await this.driver.$('/html/body/div[2]/div/main/section/header/div/div[1]/a');
     return await element.click();
 });
-
-//When('I review the first post in the list is {kraken-string}', async function (name) {
-//    let element = await this.driver.$('.gh-notification-title');
-//    expect(element.getValue()).to.equal(name);
-//});
 
 When('I click on last post', async function() {
     let element = await this.driver.$('/html/body/div[2]/div/main/section/section/ol/li[2]/a[1]');
@@ -93,7 +87,6 @@ Then('I check if the post was published on user page', async function() {
     let elements = await this.driver.$('/html/body/div/main/div/div/article[1]/div/a/header/h2');
     let valor = await elements.getText();
     expect(valor).to.equal(valor);
-//    return console.log(valor)
   });
 
 When('I start new escenario', async function() {
