@@ -1,0 +1,18 @@
+{
+  "name": "kraken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "expect.js": "^0.3.1",
+    "kraken-node": "^1.0.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test --timeout 3000000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

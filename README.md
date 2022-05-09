@@ -3,7 +3,7 @@
 ## Integrantes:
 - José Alexander Palacio Muñoz - j.palaciom@uniandes.edu.co
 - Oscar Andrés Alba Barragán - o.alba@uniandes.edu.co
-- Diego Castro
+- Diego Fernando Castro Plazas - df.castrop1@uniandes.edu.co
 - Diego Fernando Ramírez Rodríguez - df.ramirezr1@uniandes.edu.co
 
 ## Introducción.
@@ -130,3 +130,25 @@ En la terminal debe ejecutar las pruebas con el comando
 
 Sus pruebas deben comenzar a ejecutarse.
 
+
+## Ejecución de pruebas con Cypress.
+
+### Prerequisitos:
+
+1. Tener docker instalado.
+2. Tener instalado Node JS, NPM y Cypress de acuerdo a [la documentación oficial de Cypress] (https://docs.cypress.io/guides/getting-started/installing-cypress)
+3. Ejecutar los siguientes comandos para instalar Ghost:
+
+```
+docker pull ghost
+docker run -d --name some-ghost ghost
+```
+
+4. Crear un usuario administrador.
+
+### Ejecución:
+
+Dentro de la carpeta del proyecto, ir al directorio cypress. Una vez ahí, es posible ejecutar la prueba de dos maneras:
+
+1. Modo gráfico: con el comando `cypress open`
+2. Modo consola: usar el comando `cypress run --headless`
