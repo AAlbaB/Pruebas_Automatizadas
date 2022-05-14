@@ -10,7 +10,6 @@
 
 Las pruebas E2E permiten validar combinaciones de casos de uso, debido a que las pruebas de reconocimiento no cuentan con la inteligencia suficiente para validar ni combinar los casos de usos. Por tal motivo, el siguiente tutorial pretende explicar el procedimiento para el desarrollo de pruebas E2E a partir de dos herramientas para el desarrollo de pruebas: cypress y kraken. Adicionalmente, se desean establecer los pro y contras que pueden tener estas herramientas para el desarrollo de pruebas. 
 
-## Versiones de software usados.
 
 ## Funcionalidades
 
@@ -73,6 +72,14 @@ Para la ejecución de las pruebas en Kraken se deben tener los siguientes requis
 * El manejador de paquetes NPM actualizado según la versión de Node.js
 * Una herramienta de manejo de versiones Git
 * Visual Studio Code
+* Ejecutar los siguientes comandos para instalar Ghost:
+
+```
+docker pull ghost
+docker run -d --name some-ghost ghost
+```
+
+y crear un usuario administrador. con las credenciales que se encuentran en el archivo properties.json del repositorio
 
 ### Configuración del ambiente para Kraken:
 
@@ -86,6 +93,19 @@ Esto iniciará el proceso de descarga de la herramienta Kraken a nivel global en
 Cuando el proceso finalice, podrá ver un mensaje que le indica que se ha terminado de instalar todas las dependencias, como el de la siguiente imagen:
 
 ![image](https://user-images.githubusercontent.com/98669202/167321497-677c6381-fe03-423c-b4b4-f77aba8e9ed1.png)
+
+#### Clonación del repositorio
+
+Primero se debe clonar el proyecto con los siguientes pasos
+
+* Visitar la página prncipal del repositorio https://github.com/AAlbaB/Pruebas_Automatizadas
+* Sobre la lista de archivos, dar clic en Código y copiar la url especificada
+* Para descargar el código fuente del repositorio en su máquina utilizando Git, debe tener instalado el sistema manejador de versiones Git, (cuyos detalles y documentación podrá ver en la página oficial, en el siguiente enlace  https://git-scm.com/). 
+* La instalación de Git le agrega a su máquina local las herramientas de línea de comandos y otras particularidades que pueden depender de la personalización de su instalación. Usted debió configurar las terminales que tienen acceso a Git. Ahora debe abrir una de ellas, como, por ejemplo, puede ser Git Bash
+* Desde esta herramienta, ejecute el comando cd <path/del/directorio>, indicando la ruta absoluta de un directorio en el que usted desea que se descarguen los directorios con el código fuente. 
+* Ahora que se encuentra en dicha ubicación, ejecute el comando
+`git clone  https://github.com/AAlbaB/Pruebas_Automatizadas.git`
+Esto descargará el contenido del repositorio en un directorio local en su máquina.
 
 #### Creación del proyecto base
 Una vez que haya terminado la instalación, ya podrá usar las herramientas de Kraken. Lo primero que debe hacer para comenzar a utilizarlas es crear un proyecto base. Para ello, desde la misma terminal, cree el directorio que dedicará al escenario de prueba de este tutorial, si no lo ha hecho, y ubíquese en él. Desde allí, ejecute el siguiente comando:
@@ -110,18 +130,7 @@ Otro posible error es que el comando appium no se reconozca a nivel del sistema 
 
 ### Ejecución de las pruebas
 
-Primero se debe clonar el proyecto con los siguientes pasos
-
-* Visitar la página prncipal del repositorio https://github.com/AAlbaB/Pruebas_Automatizadas
-* Sobre la lista de archivos, dar clic en Código y copiar la url especificada
-* Para descargar el código fuente del repositorio en su máquina utilizando Git, debe tener instalado el sistema manejador de versiones Git, (cuyos detalles y documentación podrá ver en la página oficial, en el siguiente enlace  https://git-scm.com/). 
-* La instalación de Git le agrega a su máquina local las herramientas de línea de comandos y otras particularidades que pueden depender de la personalización de su instalación. Usted debió configurar las terminales que tienen acceso a Git. Ahora debe abrir una de ellas, como, por ejemplo, puede ser Git Bash
-* Desde esta herramienta, ejecute el comando cd <path/del/directorio>, indicando la ruta absoluta de un directorio en el que usted desea que se descarguen los directorios con el código fuente. 
-* Ahora que se encuentra en dicha ubicación, ejecute el comando
-`git clone  https://github.com/AAlbaB/Pruebas_Automatizadas.git`
-Esto descargará el contenido del repositorio en un directorio local en su máquina.
-
-Una vez clonado el repositorio puede ejecutar Visual Studio Code y ubicarse sobre la carpeta raiz del proyecto. 
+Puede ejecutar Visual Studio Code y ubicarse sobre la carpeta raiz del proyecto. 
 
 Hecho esto puede abrir una terminal dando click en Terminal > New terminal
 
