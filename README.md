@@ -146,18 +146,30 @@ Sus pruebas deben comenzar a ejecutarse.
 
 1. Tener docker instalado.
 2. Tener instalado Node JS, NPM y Cypress de acuerdo a [la documentación oficial de Cypress] (https://docs.cypress.io/guides/getting-started/installing-cypress)
-3. Ejecutar los siguientes comandos para instalar Ghost:
+
+### Pruebas de la versión 4.47 de Ghost
+
+3. Ejecutar los siguientes comandos para instalar Ghost en su versión latest (4.47):
 
 ```
 docker pull ghost
 docker run -d --name some-ghost ghost
 ```
 
-4. Crear un usuario administrador.
+Con esto, el servicio estará disponible en la URL: http://localhost:3001/
 
-### Ejecución:
 
-Dentro de la carpeta del proyecto, ir al directorio cypress. Una vez ahí, es posible ejecutar la prueba de dos maneras:
+4. Crear un usuario administrador con las siguientes credenciales:
 
-1. Modo gráfico: con el comando `cypress open`
-2. Modo consola: usar el comando `cypress run --headless`
+```
+userName = 'hola@miso.com'
+password = 'Misotest2022*'
+
+```
+
+5. Dentro de la carpeta del proyecto, ir al directorio cypress. Una vez ahí, ejecutar las pruebas para la versión latest de Ghost con el siguiente comando:
+
+```
+cypress run --headless --spec "cypress/integration/ghost.spec.js"
+
+```
