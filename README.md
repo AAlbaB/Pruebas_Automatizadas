@@ -212,7 +212,7 @@ cd cypress
 http-server .
 ```
 
-Una vez formadas las URLs y configurado el archivo backstop.json, se ejecutan las pruebas con el comando `backstop test`
+Una vez formadas las URLs y configurado el archivo backstop.json, colocando como threshold el valor de 40 (Valor más significativo para determinar si un test se considera fallido o correcto) se ejecutan las pruebas con el comando `backstop test`
 
 
 El informe detallado de las pruebas de regresión puede ser consultado en https://github.com/AAlbaB/Pruebas_Automatizadas/wiki/Resultados-de-las-pruebas-de-regresi%C3%B3n-con-Cypress
