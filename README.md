@@ -128,7 +128,15 @@ De esta forma, se asegura que la librería tenga acceso local a sus dependencias
 Otro posible error es que el comando appium no se reconozca a nivel del sistema operativo y, por ende, Kraken no lo pueda utilizar. Si esto le sucede, ejecute el siguiente comando para instalarlo:
 `npm install -g appium`
 
-### Ejecución de las pruebas
+### Ejecución de las pruebas con Kraken
+Para que estos scripts puedan ser ejecutados, en la(s) version(es) de Ghost que desee probar se debe crear un usuario administrador manualmente con las siguientes credenciales.
+2. Crear un usuario administrador con las siguientes credenciales:
+
+```
+userName = 'alexpalacio27@gmail.com'
+password = 'Pass123456'
+
+```
 
 Puede ejecutar Visual Studio Code y ubicarse sobre la carpeta raiz del proyecto. 
 
