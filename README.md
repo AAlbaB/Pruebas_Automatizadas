@@ -145,11 +145,11 @@ Sus pruebas deben comenzar a ejecutarse.
 ### Prerequisitos:
 
 1. Tener docker instalado.
-2. Tener instalado Node JS, NPM y Cypress de acuerdo a [la documentación oficial de Cypress] (https://docs.cypress.io/guides/getting-started/installing-cypress)
+2. Tener instalado Node JS, NPM y Cypress de acuerdo a [la documentación oficial de Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
-### Pruebas de la versión 4.47 de Ghost
+### Pruebas automatizadas de la versión 4.47 de Ghost
 
-3. Ejecutar los siguientes comandos para instalar Ghost en su versión latest (4.47):
+1. Ejecutar los siguientes comandos para instalar Ghost en su versión latest (4.47):
 
 ```
 docker pull ghost
@@ -159,7 +159,7 @@ docker run -d --name some-ghost ghost
 Con esto, el servicio estará disponible en la URL: http://localhost:3001/
 
 
-4. Crear un usuario administrador con las siguientes credenciales:
+2. Crear un usuario administrador con las siguientes credenciales:
 
 ```
 userName = 'hola@miso.com'
@@ -167,20 +167,52 @@ password = 'Misotest2022*'
 
 ```
 
-5. Dentro de la carpeta del proyecto, ir al directorio cypress. Una vez ahí, ejecutar las pruebas para la versión 3.x de Ghost con el siguiente comando:
-
-```
-cypress run --headless --spec "cypress/integration/regression_test_v3*" 
-
-```
-
-6. Y para la versión 4.x de Ghost usar el siguiente comando
+3. Dentro de la carpeta del proyecto, ir al directorio cypress. Una vez ahí, ejecutar las pruebas con el siguiente comando.
 
 ```
 cypress run --headless --spec "cypress/integration/regression_test_v4*" 
 
 ```
 
+### Pruebas automatizadas de la versión 3.42 de Ghost
+
+1. Ejecutar el siguiente comando para iniciar Ghost en la versión 3.42:
+
+```
+docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.42 ghost:3.42
+```
+
+Con esto, el servicio estará disponible en la URL: http://localhost:3001/
+
+
+2. Crear un usuario administrador con las siguientes credenciales:
+
+```
+userName = 'hola@miso.com'
+password = 'Misotest2022*'
+
+```
+
+3. Dentro de la carpeta del proyecto, ir al directorio cypress. Una vez ahí, ejecutar las pruebas para la versión 3.42 de Ghost con el siguiente comando
+
+```
+cypress run --headless --spec "cypress/integration/regression_test_v3*" 
+
+```
+
+
+
 ### Pruebas de regresión.
+
+Para estas pruebas se uso el framework Backstop JS el cuál puede ser instalado siguiendo las instrucciones en https://github.com/garris/BackstopJS. Posteriormente, se requiere conformar el archivo backstop.json especificando las imágenes de referencia y las imágenes de prueba (recolectadas ambas a través de los pasos anteriores). El listado de imágenes debe ser suministrado a través de su respectiva URL, para ello es necesario correr un servidor web con los comandos
+
+```
+npm install --global http-server
+cd cypress
+http-server .
+```
+
+Una vez formadas las URLs y configurado el archivo backstop.json, se ejecutan las pruebas con el comando `backstop test`
+
 
 El informe detallado de las pruebas de regresión puede ser consultado en https://github.com/AAlbaB/Pruebas_Automatizadas/wiki/Resultados-de-las-pruebas-de-regresi%C3%B3n-con-Cypress
