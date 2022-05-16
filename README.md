@@ -180,3 +180,7 @@ cypress run --headless --spec "cypress/integration/regression_test_v3*"
 cypress run --headless --spec "cypress/integration/regression_test_v4*" 
 
 ```
+
+### Pruebas de regresión.
+
+El informe detallado de las pruebas de regresión puede ser consultado en https://github.com/AAlbaB/Pruebas_Automatizadas/wiki/Resultados-de-las-pruebas-de-regresi%C3%B3n-con-Cypress
