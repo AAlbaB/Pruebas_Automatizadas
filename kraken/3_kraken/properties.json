@@ -1,0 +1,13 @@
+{
+       
+    "USERNAME1": "alexpalacio27@gmail.com",
+    "PASSWORD1": "Pass123456",
+    "PATH_SCREENSHOTS": "C:Users/jose.palacio/Documents/Personal/MISO/4.PruebasAutomatizadas/S6/screenshots",
+
+    "GHOST_URL1": "http://localhost:3001/",
+    "LOGIN_URL1": "http://localhost:3001/ghost/#/signin",
+    "POSTS_URL1": "http://localhost:3001/ghost/#/posts",
+    "POST_EDITOR_URL1":"http://localhost:3001/ghost/#/editor/post/",
+    "HOME_URL1":"http://localhost:3001/ghost/#/site"
+    
+}
