@@ -1,0 +1,233 @@
+{
+  "id": "backstop_default",
+  "viewports": [
+    {
+      "label": "default",
+      "width": 800,
+      "height": 600
+    }
+  ],
+  "onBeforeScript": "puppet/onBefore.js",
+  "onReadyScript": "puppet/onReady.js",
+  "scenarios": [
+    {
+      "label": "I login with CREDENCIALS",
+      "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test018/1652658320.png",
+      "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost4/test018/1652659644.png",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 40,
+      "requireSameDimensions": true
+    },
+
+    {
+      "label": "I navigate to post editor",
+      "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test018/1652658326.png",
+      "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost4/test018/1652659650.png",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 40,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "I navigate to post editor_",
+      "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test018/1652658329.png",
+      "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost4/test018/1652659652.png",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 40,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "I write post",
+      "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test018/1652658331.png",
+      "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost4/test018/1652659654.png",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 40,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "I write post_",
+      "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test018/1652658332.png",
+      "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost4/test018/1652659656.png",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 40,
+      "requireSameDimensions": true
+    },
+
+
+
+
+    {
+      "label": "I log out",
+      "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test018/1652658337.png",
+      "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost4/test018/1652659664.png",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 40,
+      "requireSameDimensions": true
+    },
+
+    {
+      "label": "I navigate to USER PAGE",
+      "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test018/1652658341.png",
+      "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost4/test018/1652659665.png",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 40,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "I check if the post_",
+      "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test018/1652658345.png",
+      "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost4/test018/1652659669.png",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 40,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "I check if the post__",
+      "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test018/1652658346.png",
+      "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost4/test018/1652659670.png",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 40,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "I check if the post___",
+      "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test018/1652658349.png",
+      "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost4/test018/1652659673.png",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 0,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 40,
+      "requireSameDimensions": true
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test": "backstop_data/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/html_report",
+    "ci_report": "backstop_data/ci_report"
+  },
+  "report": ["browser"],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 50,
+  "debug": false,
+  "debugWindow": false
+}

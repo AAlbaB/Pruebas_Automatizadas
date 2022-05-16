@@ -1,0 +1,397 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Inicio_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_Inicio_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Inicio_0_document_0_default.png",
+        "label": "Inicio",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647158.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647158.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_Inicio_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_navigate_to_page_LOGIN_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_navigate_to_page_LOGIN_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_navigate_to_page_LOGIN_0_document_0_default.png",
+        "label": "I navigate to page LOGIN",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647161.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647161.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_navigate_to_page_LOGIN_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_login_with_CREDENTIALS_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_login_with_CREDENTIALS_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_login_with_CREDENTIALS_0_document_0_default.png",
+        "label": "I login with CREDENTIALS",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647162.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647162.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_login_with_CREDENTIALS_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_arrive_to_HOME_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_arrive_to_HOME_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_arrive_to_HOME_0_document_0_default.png",
+        "label": "I arrive to HOME",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647167.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647167.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_arrive_to_HOME_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_navigate_to_page_POST_EDITOR_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_navigate_to_page_POST_EDITOR_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_navigate_to_page_POST_EDITOR_0_document_0_default.png",
+        "label": "I navigate to page POST EDITOR",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647168.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647168.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_navigate_to_page_POST_EDITOR_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_see_post_editor_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_see_post_editor_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_see_post_editor_0_document_0_default.png",
+        "label": "I see post editor",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647171.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647171.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_see_post_editor_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_write_a_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_write_a_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_write_a_post_0_document_0_default.png",
+        "label": "I write a post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647174.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647174.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_write_a_post_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png",
+        "label": "I validate if the post was published",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647175.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647175.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_navigate_to_page_POSTS_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_navigate_to_page_POSTS_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_navigate_to_page_POSTS_0_document_0_default.png",
+        "label": "I navigate to page POSTS",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647179.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647179.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_navigate_to_page_POSTS_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_click_on_last_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_click_on_last_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_click_on_last_post_0_document_0_default.png",
+        "label": "I click on last post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647180.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647180.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_click_on_last_post_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_edit_a_post_process_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_edit_a_post_process_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_edit_a_post_process_0_document_0_default.png",
+        "label": "I edit a post process",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647182.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647182.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_edit_a_post_process_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_edit_a_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_edit_a_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_edit_a_post_0_document_0_default.png",
+        "label": "I edit a post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647185.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647185.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_edit_a_post_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png",
+        "label": "I validate if the post was published",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647186.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647186.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_click_on_last_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_click_on_last_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_click_on_last_post_0_document_0_default.png",
+        "label": "I click on last post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647191.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647191.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_click_on_last_post_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_delete_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_delete_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_delete_post_0_document_0_default.png",
+        "label": "I delete post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647194.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647194.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_delete_post_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_confirm_delete_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_confirm_delete_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_confirm_delete_post_0_document_0_default.png",
+        "label": "I confirm delete post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647195.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647195.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_confirm_delete_post_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_navigate_to_page_POSTS_EDITOR_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_navigate_to_page_POSTS_EDITOR_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_navigate_to_page_POSTS_EDITOR_0_document_0_default.png",
+        "label": "I navigate to page POSTS EDITOR",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647199.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647199.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_navigate_to_page_POSTS_EDITOR_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_write_a_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_write_a_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_write_a_post_0_document_0_default.png",
+        "label": "I write a post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647201.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647201.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_write_a_post_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png",
+        "label": "I validate if the post was published",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647203.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647203.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_validate_if_the_post_was_published_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_navigate_to_page_HOME_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_navigate_to_page_HOME_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_navigate_to_page_HOME_0_document_0_default.png",
+        "label": "I navigate to page HOME",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647206.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647206.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_navigate_to_page_HOME_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_sign_out_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_sign_out_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_sign_out_0_document_0_default.png",
+        "label": "I sign out",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647209.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647209.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_sign_out_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_navigate_to_page_USER_INTERFACE_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_navigate_to_page_USER_INTERFACE_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_navigate_to_page_USER_INTERFACE_0_document_0_default.png",
+        "label": "I navigate to page USER INTERFACE",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647213.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647213.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_navigate_to_page_USER_INTERFACE_0_document_0_default.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_check_if_the_post_was_published_on_user_page_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-222311\\backstop_default_I_check_if_the_post_was_published_on_user_page_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_check_if_the_post_was_published_on_user_page_0_document_0_default.png",
+        "label": "I check if the post was published on user page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647221.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test001/1652647221.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "error": "Reference file not found C:\\Users\\jose.palacio\\Documents\\Personal\\MISO\\4.PruebasAutomatizadas\\Proyecto\\Pruebas_Automatizadas\\PruebasRegresionKraken\\backstop_test001\\backstop_data\\bitmaps_reference\\backstop_default_I_check_if_the_post_was_published_on_user_page_0_document_0_default.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}

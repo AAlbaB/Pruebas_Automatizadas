@@ -1,0 +1,462 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_navigate_to_page_LOGIN_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_navigate_to_page_LOGIN_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_navigate_to_page_LOGIN_0_document_0_default.png",
+        "label": "I navigate to page LOGIN",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658190.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659734.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_login_with_CREDENCIALS_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_login_with_CREDENCIALS_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_login_with_CREDENCIALS_0_document_0_default.png",
+        "label": "I login with CREDENCIALS",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658191.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659735.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_arrive_to_HOME_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_arrive_to_HOME_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_arrive_to_HOME_0_document_0_default.png",
+        "label": "I arrive to HOME",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658196.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659740.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_navigate_to_page_POSTS_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_navigate_to_page_POSTS_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_navigate_to_page_POSTS_0_document_0_default.png",
+        "label": "I navigate to page POSTS",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658197.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659741.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_open_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_open_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_open_post_0_document_0_default.png",
+        "label": "I open post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658200.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659743.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_open_post__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_open_post__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_open_post__0_document_0_default.png",
+        "label": "I open post_",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658203.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659746.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_edit_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_edit_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_edit_post_0_document_0_default.png",
+        "label": "I edit post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658204.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659747.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_edit_post__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_edit_post__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_edit_post__0_document_0_default.png",
+        "label": "I edit post_",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658206.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659749.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_write_a_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_write_a_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_write_a_post_0_document_0_default.png",
+        "label": "I write a post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658209.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659752.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_navigate_to_page_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_navigate_to_page_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_navigate_to_page_0_document_0_default.png",
+        "label": "I navigate to page",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658210.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659754.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_open_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_open_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_open_post_0_document_0_default.png",
+        "label": "I open post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658212.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659757.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_delete_post_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_delete_post_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_delete_post_0_document_0_default.png",
+        "label": "I delete post",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658215.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659758.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_delete_post__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_delete_post__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_delete_post__0_document_0_default.png",
+        "label": "I delete post_",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658216.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659759.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_go_home_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_go_home_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_go_home_0_document_0_default.png",
+        "label": "I go home",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658236.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659779.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_log_out_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_log_out_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_log_out_0_document_0_default.png",
+        "label": "I log out",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658240.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659783.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_navigate_to_USER_PAGE_0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_navigate_to_USER_PAGE_0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_navigate_to_USER_PAGE_0_document_0_default.png",
+        "label": "I navigate to USER PAGE",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658241.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659784.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_check_if_the_post__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_check_if_the_post__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_check_if_the_post__0_document_0_default.png",
+        "label": "I check if the post_",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658245.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659788.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_check_if_the_post___0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_check_if_the_post___0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_check_if_the_post___0_document_0_default.png",
+        "label": "I check if the post__",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658246.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659789.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_I_check_if_the_post____0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20220515-221228\\backstop_default_I_check_if_the_post____0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_I_check_if_the_post____0_document_0_default.png",
+        "label": "I check if the post___",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 40,
+        "url": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652658250.png",
+        "referenceUrl": "http://127.0.0.1:8080/PruebasRegresionKraken/imagenes/ghost3/test017/1652659793.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "backstop_default"
+}
