@@ -167,9 +167,16 @@ password = 'Misotest2022*'
 
 ```
 
-5. Dentro de la carpeta del proyecto, ir al directorio cypress. Una vez ahí, ejecutar las pruebas para la versión latest de Ghost con el siguiente comando:
+5. Dentro de la carpeta del proyecto, ir al directorio cypress. Una vez ahí, ejecutar las pruebas para la versión 3.x de Ghost con el siguiente comando:
 
 ```
-cypress run --headless --spec "cypress/integration/ghost.spec.js"
+cypress run --headless --spec "cypress/integration/regression_test_v3*" 
+
+```
+
+6. Y para la versión 4.x de Ghost usar el siguiente comando
+
+```
+cypress run --headless --spec "cypress/integration/regression_test_v4*" 
 
 ```
