@@ -204,15 +204,23 @@ cypress run --headless --spec "cypress/integration/regression_test_v3*"
 
 ### Pruebas de regresión.
 
+Para la ejecución de estos escenarios se utilizo las imagenes de Ghost descargadas en docker. Se realizan pruebas automatizadas con kraken y cypress en la versión 3.3.0 y 4.47.0 de Ghost sobre los puertos http://localhost:3001/ y http://localhost:3002/ respectivamente
+
+Antes de realizar las pruebas se seleccionaron los escenarios (01,06,07,08,09,10,17,18,19,20) los cuales pueden verse en la tabla anteriormente mostrada
+Los 5 primeros escenarios se ejecutaron con kraken, mientras que los últimos 5 con cypress
+
+
+
+Las imagenes tomadas durante las pruebas automatizadas fueron el insumo para las pruebas de regresión
 Para estas pruebas se uso el framework Backstop JS el cuál puede ser instalado siguiendo las instrucciones en https://github.com/garris/BackstopJS. Posteriormente, se requiere conformar el archivo backstop.json especificando las imágenes de referencia y las imágenes de prueba (recolectadas ambas a través de los pasos anteriores). El listado de imágenes debe ser suministrado a través de su respectiva URL, para ello es necesario correr un servidor web con los comandos
 
 ```
 npm install --global http-server
-cd cypress
+cd Pruebas_Automatizadas
 http-server .
 ```
 
-Una vez formadas las URLs y configurado el archivo backstop.json, colocando como threshold el valor de 40 (Valor más significativo para determinar si un test se considera fallido o correcto) se ejecutan las pruebas con el comando `backstop test`
+Una vez formadas las URLs y configurado el archivo backstop.json, colocando como threshold el valor de 40 (Valor más significativo para determinar si un test se considera fallido o correcto) se ejecutan las pruebas con el comando `backstop test`. Este treshold se elije despés de un proceso de tanteo para que las pruebas entregaran información valiosa para los tester, de manera que pudieran enfocarse en las diferencias importantes de las funcionalidades. Además se tiene en cuenta la importante diferencia visual que las dos versiones de la aplicación ostentan.
 
 
 El informe detallado de las pruebas de regresión puede ser consultado en https://github.com/AAlbaB/Pruebas_Automatizadas/wiki/Resultados-de-las-pruebas-de-regresi%C3%B3n-con-Cypress
